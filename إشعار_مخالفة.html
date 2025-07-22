@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج طلب إجازة</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="btn back-btn">العودة للصفحة الرئيسية</a>
+        
+        <div class="form-container">
+            <h1>نموذج طلب إجازة</h1>
+            
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem;">
+                <div>
+                    <label><strong>التاريخ:</strong></label>
+                    <input type="date" class="form-field" style="width: 100%;">
+                </div>
+                <div>
+                    <label><strong>الرقم الوظيفي:</strong></label>
+                    <input type="text" class="form-field" placeholder="أدخل الرقم الوظيفي" style="width: 100%;">
+                </div>
+            </div>
+
+            <div style="margin-bottom: 1rem;">
+                <label><strong>اسم الموظف:</strong></label>
+                <input type="text" class="form-field" placeholder="أدخل اسم الموظف كاملاً" style="width: 100%;">
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem;">
+                <div>
+                    <label><strong>القسم:</strong></label>
+                    <input type="text" class="form-field" placeholder="أدخل اسم القسم" style="width: 100%;">
+                </div>
+                <div>
+                    <label><strong>نوع الإجازة:</strong></label>
+                    <select class="form-field" style="width: 100%;">
+                        <option value="">اختر نوع الإجازة</option>
+                        <option value="سنوية">سنوية</option>
+                        <option value="مرضية">مرضية</option>
+                        <option value="طارئة">طارئة</option>
+                        <option value="أمومة">أمومة</option>
+                        <option value="أبوة">أبوة</option>
+                        <option value="حج">حج</option>
+                        <option value="عمرة">عمرة</option>
+                        <option value="بدون راتب">بدون راتب</option>
+                    </select>
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-bottom: 2rem;">
+                <div>
+                    <label><strong>تاريخ بدء الإجازة:</strong></label>
+                    <input type="date" class="form-field" style="width: 100%;">
+                </div>
+                <div>
+                    <label><strong>تاريخ انتهاء الإجازة:</strong></label>
+                    <input type="date" class="form-field" style="width: 100%;">
+                </div>
+                <div>
+                    <label><strong>عدد أيام الإجازة:</strong></label>
+                    <input type="number" class="form-field" placeholder="عدد الأيام" style="width: 100%;">
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem;">
+                <div>
+                    <label><strong>عنوان الاتصال أثناء الإجازة:</strong></label>
+                    <textarea class="form-field" placeholder="أدخل عنوان الاتصال" style="width: 100%; height: 80px;"></textarea>
+                </div>
+                <div>
+                    <label><strong>رقم الهاتف:</strong></label>
+                    <input type="tel" class="form-field" placeholder="أدخل رقم الهاتف" style="width: 100%;">
+                </div>
+            </div>
+
+            <div style="margin-bottom: 2rem;">
+                <label><strong>سبب الإجازة (اختياري):</strong></label>
+                <textarea class="form-field" placeholder="أدخل سبب الإجازة إن أردت" style="width: 100%; height: 100px;"></textarea>
+            </div>
+
+            <h2>الموافقات</h2>
+            
+            <div style="background: #f9f9f9; padding: 2rem; border-radius: 5px; margin: 2rem 0;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
+                    <div>
+                        <h3>الموظف</h3>
+                        <p><strong>توقيع الموظف:</strong> <span class="signature-line" style="min-width: 150px;"></span></p>
+                        <br>
+                        <p><strong>تاريخ التوقيع:</strong> <span class="signature-line" style="min-width: 150px;"></span></p>
+                    </div>
+                    <div>
+                        <h3>المدير المباشر</h3>
+                        <p><strong>اسم المدير المباشر:</strong></p>
+                        <input type="text" class="form-field" placeholder="أدخل اسم المدير المباشر" style="width: 100%; margin-bottom: 10px;">
+                        <p><strong>توقيع المدير المباشر:</strong> <span class="signature-line" style="min-width: 150px;"></span></p>
+                        <br>
+                        <p><strong>تاريخ التوقيع:</strong> <span class="signature-line" style="min-width: 150px;"></span></p>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 2rem; text-align: center;">
+                    <h3>إدارة الموارد البشرية</h3>
+                    <p><strong>توقيع إدارة الموارد البشرية:</strong> <span class="signature-line" style="min-width: 200px;"></span></p>
+                    <br>
+                    <p><strong>تاريخ التوقيع:</strong> <span class="signature-line" style="min-width: 150px;"></span></p>
+                </div>
+            </div>
+
+            <div style="margin-top: 2rem;">
+                <label><strong>ملاحظات:</strong></label>
+                <textarea class="form-field" placeholder="أدخل ملاحظات إضافية إن وجدت" style="width: 100%; height: 100px;"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
+

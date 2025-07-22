@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عقد عمل</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="btn back-btn">العودة للصفحة الرئيسية</a>
+        
+        <div class="form-container">
+            <h1>عقد عمل</h1>
+            
+            <h2>الطرف الأول (صاحب العمل)</h2>
+            <div style="background: #f0f8ff; padding: 1.5rem; border-radius: 5px; margin-bottom: 2rem;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                    <div>
+                        <label><strong>اسم الشركة/الجهة:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل اسم الشركة/الجهة" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>الممثل القانوني:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل اسم الممثل القانوني" style="width: 100%;">
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div>
+                        <label><strong>المنصب:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل منصب الممثل القانوني" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>العنوان:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل عنوان الشركة/الجهة" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+
+            <h2>الطرف الثاني (الموظف)</h2>
+            <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 5px; margin-bottom: 2rem;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                    <div>
+                        <label><strong>اسم الموظف كاملاً:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل اسم الموظف كاملاً" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>الجنسية:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل جنسية الموظف" style="width: 100%;">
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                    <div>
+                        <label><strong>تاريخ الميلاد:</strong></label>
+                        <input type="date" class="form-field" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>الرقم الوطني/رقم الإقامة:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل الرقم الوطني/رقم الإقامة" style="width: 100%;">
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div>
+                        <label><strong>رقم الهاتف:</strong></label>
+                        <input type="tel" class="form-field" placeholder="أدخل رقم هاتف الموظف" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>البريد الإلكتروني:</strong></label>
+                        <input type="email" class="form-field" placeholder="أدخل البريد الإلكتروني" style="width: 100%;">
+                    </div>
+                </div>
+                <div style="margin-top: 1rem;">
+                    <label><strong>العنوان:</strong></label>
+                    <textarea class="form-field" placeholder="أدخل عنوان سكن الموظف" style="width: 100%; height: 80px;"></textarea>
+                </div>
+            </div>
+
+            <h2>بنود العقد</h2>
+
+            <h3>المادة 1: طبيعة العمل والمنصب</h3>
+            <div style="background: #f9f9f9; padding: 1rem; border-radius: 5px; margin: 1rem 0;">
+                <p>يتعهد الطرف الثاني بالعمل لدى الطرف الأول بصفة:</p>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div>
+                        <label><strong>المسمى الوظيفي:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل المسمى الوظيفي" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>القسم:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل اسم القسم" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+
+            <h3>المادة 2: مدة العقد</h3>
+            <div style="background: #f9f9f9; padding: 1rem; border-radius: 5px; margin: 1rem 0;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div>
+                        <label><strong>تاريخ بدء العقد:</strong></label>
+                        <input type="date" class="form-field" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>مدة العقد:</strong></label>
+                        <input type="text" class="form-field" placeholder="مثال: سنة واحدة" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+
+            <h3>المادة 3: فترة التجربة</h3>
+            <div style="background: #f9f9f9; padding: 1rem; border-radius: 5px; margin: 1rem 0;">
+                <label><strong>مدة فترة التجربة:</strong></label>
+                <input type="text" class="form-field" placeholder="مثال: ثلاثة أشهر" style="width: 300px;">
+            </div>
+
+            <h3>المادة 4: الراتب والمزايا</h3>
+            <div style="background: #f9f9f9; padding: 1rem; border-radius: 5px; margin: 1rem 0;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                    <div>
+                        <label><strong>الراتب الشهري (بالأرقام):</strong></label>
+                        <input type="number" class="form-field" placeholder="أدخل المبلغ" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>العملة:</strong></label>
+                        <input type="text" class="form-field" placeholder="مثال: ريال سعودي" style="width: 100%;">
+                    </div>
+                </div>
+                <div>
+                    <label><strong>الراتب الشهري (بالحروف):</strong></label>
+                    <input type="text" class="form-field" placeholder="أدخل المبلغ بالحروف" style="width: 100%;">
+                </div>
+                <div style="margin-top: 1rem;">
+                    <label><strong>المزايا الإضافية:</strong></label>
+                    <textarea class="form-field" placeholder="مثال: بدل سكن، بدل مواصلات، تأمين صحي، مكافآت" style="width: 100%; height: 100px;"></textarea>
+                </div>
+            </div>
+
+            <h3>المادة 5: ساعات العمل والإجازات</h3>
+            <div style="background: #f9f9f9; padding: 1rem; border-radius: 5px; margin: 1rem 0;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                    <div>
+                        <label><strong>عدد ساعات العمل اليومية:</strong></label>
+                        <input type="number" class="form-field" placeholder="8" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>وقت البدء:</strong></label>
+                        <input type="time" class="form-field" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>وقت الانتهاء:</strong></label>
+                        <input type="time" class="form-field" style="width: 100%;">
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div>
+                        <label><strong>يوم بدء الأسبوع:</strong></label>
+                        <input type="text" class="form-field" placeholder="مثال: الأحد" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>يوم انتهاء الأسبوع:</strong></label>
+                        <input type="text" class="form-field" placeholder="مثال: الخميس" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+
+            <h3>المادة 6: السرية وعدم الإفشاء</h3>
+            <p style="background: #fff3cd; padding: 1rem; border-radius: 5px;">
+                يتعهد الطرف الثاني بالحفاظ على سرية جميع المعلومات والبيانات الخاصة بالطرف الأول التي يطلع عليها بحكم عمله، وعدم إفشائها لأي طرف ثالث سواء خلال مدة العقد أو بعد انتهائه.
+            </p>
+
+            <h3>المادة 7: إنهاء العقد</h3>
+            <div style="background: #f9f9f9; padding: 1rem; border-radius: 5px; margin: 1rem 0;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div>
+                        <label><strong>مدة الإشعار المطلوبة:</strong></label>
+                        <input type="text" class="form-field" placeholder="مثال: شهر واحد" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>الدولة المطبق قانونها:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل اسم الدولة" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+
+            <h3>المادة 8: القانون الواجب التطبيق والاختصاص القضائي</h3>
+            <div style="background: #f9f9f9; padding: 1rem; border-radius: 5px; margin: 1rem 0;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                    <div>
+                        <label><strong>الدولة المطبق قانونها:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل اسم الدولة" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>المحاكم المختصة:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل اسم المدينة/المنطقة" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+
+            <h2>التوقيعات</h2>
+            <div style="background: #f8f9fa; padding: 2rem; border-radius: 5px; margin: 2rem 0;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
+                    <div>
+                        <h3>الطرف الأول (صاحب العمل)</h3>
+                        <p><strong>الاسم:</strong> <span class="signature-line" style="min-width: 200px;"></span></p>
+                        <br>
+                        <p><strong>المنصب:</strong> <span class="signature-line" style="min-width: 200px;"></span></p>
+                        <br>
+                        <p><strong>التوقيع:</strong> <span class="signature-line" style="min-width: 200px;"></span></p>
+                        <br>
+                        <p><strong>التاريخ:</strong> <span class="signature-line" style="min-width: 150px;"></span></p>
+                    </div>
+                    <div>
+                        <h3>الطرف الثاني (الموظف)</h3>
+                        <p><strong>الاسم:</strong> <span class="signature-line" style="min-width: 200px;"></span></p>
+                        <br><br>
+                        <p><strong>التوقيع:</strong> <span class="signature-line" style="min-width: 200px;"></span></p>
+                        <br>
+                        <p><strong>التاريخ:</strong> <span class="signature-line" style="min-width: 150px;"></span></p>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 3rem;">
+                    <h3>الشهود (اختياري)</h3>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 1rem;">
+                        <div>
+                            <p><strong>الشاهد الأول:</strong></p>
+                            <p>الاسم: <span class="signature-line" style="min-width: 150px;"></span></p>
+                            <br>
+                            <p>التوقيع: <span class="signature-line" style="min-width: 150px;"></span></p>
+                            <br>
+                            <p>التاريخ: <span class="signature-line" style="min-width: 120px;"></span></p>
+                        </div>
+                        <div>
+                            <p><strong>الشاهد الثاني:</strong></p>
+                            <p>الاسم: <span class="signature-line" style="min-width: 150px;"></span></p>
+                            <br>
+                            <p>التوقيع: <span class="signature-line" style="min-width: 150px;"></span></p>
+                            <br>
+                            <p>التاريخ: <span class="signature-line" style="min-width: 120px;"></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
+

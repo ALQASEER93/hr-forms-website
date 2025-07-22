@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نموذج تقرير أداء موظف</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="btn back-btn">العودة للصفحة الرئيسية</a>
+        
+        <div class="form-container">
+            <h1>نموذج تقرير أداء موظف</h1>
+            
+            <div style="background: #f0f8ff; padding: 1.5rem; border-radius: 5px; margin-bottom: 2rem;">
+                <h2>بيانات الموظف</h2>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                    <div>
+                        <label><strong>اسم الموظف:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل اسم الموظف كاملاً" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>الرقم الوظيفي:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل الرقم الوظيفي" style="width: 100%;">
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                    <div>
+                        <label><strong>القسم:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل اسم القسم" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>المسمى الوظيفي:</strong></label>
+                        <input type="text" class="form-field" placeholder="أدخل المسمى الوظيفي" style="width: 100%;">
+                    </div>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1rem;">
+                    <div>
+                        <label><strong>تاريخ التقييم:</strong></label>
+                        <input type="date" class="form-field" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>من تاريخ:</strong></label>
+                        <input type="date" class="form-field" style="width: 100%;">
+                    </div>
+                    <div>
+                        <label><strong>إلى تاريخ:</strong></label>
+                        <input type="date" class="form-field" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+
+            <h2>1. الأهداف والإنجازات</h2>
+            <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 5px; margin-bottom: 2rem;">
+                <h3>الأهداف المحددة:</h3>
+                <div style="margin-bottom: 1rem;">
+                    <input type="text" class="form-field" placeholder="الهدف 1" style="width: 100%; margin-bottom: 0.5rem;">
+                    <input type="text" class="form-field" placeholder="الهدف 2" style="width: 100%; margin-bottom: 0.5rem;">
+                    <input type="text" class="form-field" placeholder="الهدف 3" style="width: 100%; margin-bottom: 0.5rem;">
+                    <input type="text" class="form-field" placeholder="أضف المزيد من الأهداف" style="width: 100%;">
+                </div>
+                
+                <h3>الإنجازات المحققة:</h3>
+                <div>
+                    <input type="text" class="form-field" placeholder="الإنجاز 1" style="width: 100%; margin-bottom: 0.5rem;">
+                    <input type="text" class="form-field" placeholder="الإنجاز 2" style="width: 100%; margin-bottom: 0.5rem;">
+                    <input type="text" class="form-field" placeholder="الإنجاز 3" style="width: 100%; margin-bottom: 0.5rem;">
+                    <input type="text" class="form-field" placeholder="أضف المزيد من الإنجازات" style="width: 100%;">
+                </div>
+            </div>
+
+            <h2>2. الكفاءات السلوكية</h2>
+            <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 5px; margin-bottom: 2rem;">
+                <div style="margin-bottom: 1rem;">
+                    <label><strong>التعاون والعمل الجماعي:</strong></label>
+                    <div style="display: flex; gap: 1rem; align-items: center; margin-top: 0.5rem;">
+                        <select class="form-field" style="width: 200px;">
+                            <option value="">اختر التقييم</option>
+                            <option value="ممتاز">ممتاز</option>
+                            <option value="جيد جداً">جيد جداً</option>
+                            <option value="جيد">جيد</option>
+                            <option value="مقبول">مقبول</option>
+                            <option value="ضعيف">ضعيف</option>
+                        </select>
+                        <input type="text" class="form-field" placeholder="أدخل ملاحظاتك هنا" style="flex: 1;">
+                    </div>
+                </div>
+                
+                <div style="margin-bottom: 1rem;">
+                    <label><strong>المبادرة والابتكار:</strong></label>
+                    <div style="display: flex; gap: 1rem; align-items: center; margin-top: 0.5rem;">
+                        <select class="form-field" style="width: 200px;">
+                            <option value="">اختر التقييم</option>
+                            <option value="ممتاز">ممتاز</option>
+                            <option value="جيد جداً">جيد جداً</option>
+                            <option value="جيد">جيد</option>
+                            <option value="مقبول">مقبول</option>
+                            <option value="ضعيف">ضعيف</option>
+                        </select>
+                        <input type="text" class="form-field" placeholder="أدخل ملاحظاتك هنا" style="flex: 1;">
+                    </div>
+                </div>
+                
+                <div style="margin-bottom: 1rem;">
+                    <label><strong>حل المشكلات واتخاذ القرار:</strong></label>
+                    <div style="display: flex; gap: 1rem; align-items: center; margin-top: 0.5rem;">
+                        <select class="form-field" style="width: 200px;">
+                            <option value="">اختر التقييم</option>
+                            <option value="ممتاز">ممتاز</option>
+                            <option value="جيد جداً">جيد جداً</option>
+                            <option value="جيد">جيد</option>
+                            <option value="مقبول">مقبول</option>
+                            <option value="ضعيف">ضعيف</option>
+                        </select>
+                        <input type="text" class="form-field" placeholder="أدخل ملاحظاتك هنا" style="flex: 1;">
+                    </div>
+                </div>
+                
+                <div style="margin-bottom: 1rem;">
+                    <label><strong>التواصل:</strong></label>
+                    <div style="display: flex; gap: 1rem; align-items: center; margin-top: 0.5rem;">
+                        <select class="form-field" style="width: 200px;">
+                            <option value="">اختر التقييم</option>
+                            <option value="ممتاز">ممتاز</option>
+                            <option value="جيد جداً">جيد جداً</option>
+                            <option value="جيد">جيد</option>
+                            <option value="مقبول">مقبول</option>
+                            <option value="ضعيف">ضعيف</option>
+                        </select>
+                        <input type="text" class="form-field" placeholder="أدخل ملاحظاتك هنا" style="flex: 1;">
+                    </div>
+                </div>
+            </div>
+
+            <h2>3. نقاط القوة</h2>
+            <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 5px; margin-bottom: 2rem;">
+                <input type="text" class="form-field" placeholder="نقطة قوة 1" style="width: 100%; margin-bottom: 0.5rem;">
+                <input type="text" class="form-field" placeholder="نقطة قوة 2" style="width: 100%; margin-bottom: 0.5rem;">
+                <input type="text" class="form-field" placeholder="أضف المزيد من نقاط القوة" style="width: 100%;">
+            </div>
+
+            <h2>4. مجالات التطوير</h2>
+            <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 5px; margin-bottom: 2rem;">
+                <input type="text" class="form-field" placeholder="مجال تطوير 1" style="width: 100%; margin-bottom: 0.5rem;">
+                <input type="text" class="form-field" placeholder="مجال تطوير 2" style="width: 100%; margin-bottom: 0.5rem;">
+                <input type="text" class="form-field" placeholder="أضف المزيد من مجالات التطوير" style="width: 100%;">
+            </div>
+
+            <h2>5. خطة التطوير</h2>
+            <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 5px; margin-bottom: 2rem;">
+                <div style="margin-bottom: 1rem;">
+                    <label><strong>التدريب المقترح:</strong></label>
+                    <input type="text" class="form-field" placeholder="أدخل اسم الدورة/البرنامج التدريبي المقترح" style="width: 100%;">
+                </div>
+                <div style="margin-bottom: 1rem;">
+                    <label><strong>المهام التطويرية:</strong></label>
+                    <textarea class="form-field" placeholder="أدخل وصف المهام التطويرية" style="width: 100%; height: 100px;"></textarea>
+                </div>
+                <div>
+                    <label><strong>تاريخ المتابعة:</strong></label>
+                    <input type="date" class="form-field" style="width: 300px;">
+                </div>
+            </div>
+
+            <h2>6. التوصيات العامة</h2>
+            <div style="background: #f9f9f9; padding: 1.5rem; border-radius: 5px; margin-bottom: 2rem;">
+                <textarea class="form-field" placeholder="أدخل التوصيات العامة من المدير المباشر هنا" style="width: 100%; height: 120px;"></textarea>
+            </div>
+
+            <h2>التوقيعات</h2>
+            <div style="background: #f8f9fa; padding: 2rem; border-radius: 5px; margin: 2rem 0;">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
+                    <div>
+                        <h3>المدير المباشر</h3>
+                        <p><strong>اسم المدير المباشر:</strong></p>
+                        <input type="text" class="form-field" placeholder="أدخل اسم المدير المباشر كاملاً" style="width: 100%; margin-bottom: 1rem;">
+                        <p><strong>التوقيع:</strong> <span class="signature-line" style="min-width: 200px;"></span></p>
+                        <br>
+                        <p><strong>التاريخ:</strong> <span class="signature-line" style="min-width: 150px;"></span></p>
+                    </div>
+                    <div>
+                        <h3>الموظف</h3>
+                        <p><strong>اسم الموظف:</strong></p>
+                        <input type="text" class="form-field" placeholder="أدخل اسم الموظف كاملاً" style="width: 100%; margin-bottom: 1rem;">
+                        <p><strong>التوقيع:</strong> <span class="signature-line" style="min-width: 200px;"></span></p>
+                        <br>
+                        <p><strong>التاريخ:</strong> <span class="signature-line" style="min-width: 150px;"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
+
